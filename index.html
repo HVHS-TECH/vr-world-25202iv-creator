@@ -9,12 +9,21 @@
     <body>
     <a-scene>
       <a-sky color="grey"></a-sky>
+     <a-entity
+     ply-model="src:smoka.ply"
+           position="0.25 4.5 -12"
+           rotation="270 0 0"
+    "
+    ></a-entity>
       
        <!-- Put this inside the <a-scene> -->
         <a-entity  
+            ply-model="src:Lava.ply"
+     position="13.3 -3.5 -12"
+     rotation="270 0 0"
       ></a-entity>
      <a-entity
-     ply-model="src:Volcano2.ply"
+     ply-model="src:Crass.ply"
      position="-0.5 -3.5 -12"
      rotation="270 0 0"
      ></a-entity>
@@ -25,11 +34,13 @@
      animation="
      property: position;
      from: -0.5 1.5 -12; 
-     to: -0.5 50.5 -12; 
-     loop: true;
-     dur: 25000;"
-     ></a-entity>
+     to: -0.5 15.5 -12;
+     loop: true; 
+     dur: 10000;
 
+     "
+     ></a-entity>
+     
 
 
 
